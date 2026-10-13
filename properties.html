@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Properties | Bajwa Properties</title>
+  <meta name="description" content="Bajwa Properties ki tamam listings - houses, apartments, plots aur commercial properties for sale aur rent.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="properties">
+  <div id="site-header"></div>
+
+  <section class="page-header">
+    <div class="container">
+      <h1>Hamari Properties</h1>
+      <p><a href="index.html">Home</a> / Properties</p>
+    </div>
+  </section>
+
+  <section class="section section-soft">
+    <div class="container">
+      <form class="filters" id="filter-form">
+        <div class="field">
+          <label>Search</label>
+          <input type="text" name="q" placeholder="Naam ya location likhein...">
+        </div>
+        <div class="field">
+          <label>Purpose</label>
+          <select name="purpose">
+            <option value="">All</option>
+            <option value="sale">For Sale</option>
+            <option value="rent">For Rent</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Type</label>
+          <select name="type">
+            <option value="">All Types</option>
+            <option>House</option>
+            <option>Apartment</option>
+            <option>Plot</option>
+            <option>Commercial</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>City</label>
+          <select name="city">
+            <option value="">All Cities</option>
+            <option>Lahore</option>
+            <option>Islamabad</option>
+            <option>Karachi</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Sort</label>
+          <select name="sort">
+            <option value="">Default</option>
+            <option value="low">Price: Kam se Zyada</option>
+            <option value="high">Price: Zyada se Kam</option>
+          </select>
+        </div>
+      </form>
+
+      <p class="results-count" id="results-count"></p>
+      <div class="property-grid" id="listing-grid"></div>
+    </div>
+  </section>
+
+  <div id="site-footer"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
