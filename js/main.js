@@ -1,11 +1,11 @@
-// ===== Bajwa Properties - Main Script =====
+// ===== JB Properties - Main Script =====
 
 // ---- Company info (yahan apni asli details dal dein) ----
 const COMPANY = {
-  name: "Bajwa Properties",
+  name: "JB Properties",
   phone: "0300-1234567",
   whatsapp: "923001234567",
-  email: "info@bajwaproperties.com",
+  email: "info@jbproperties.com",
   address: "Office #12, Main Boulevard, DHA Phase 5, Lahore",
 };
 
@@ -135,8 +135,8 @@ function renderLayout() {
       <nav class="navbar">
         <div class="container">
           <a href="index.html" class="logo">
-            <div class="logo-icon">B</div>
-            <div>Bajwa<small>PROPERTIES</small></div>
+            <div class="logo-icon">JB</div>
+            <div>JB<small>PROPERTIES</small></div>
           </a>
           <ul class="nav-links">
             ${link("index.html", "Home", "home")}
@@ -157,7 +157,7 @@ function renderLayout() {
         <div class="container">
           <div class="footer-grid">
             <div>
-              <a href="index.html" class="logo"><div class="logo-icon">B</div><div>Bajwa<small>PROPERTIES</small></div></a>
+              <a href="index.html" class="logo"><div class="logo-icon">JB</div><div>JB<small>PROPERTIES</small></div></a>
               <p>Pakistan ki bharosemand real estate company. Hum aapke sapnon ka ghar dhoondne mein madad karte hain — imandari aur transparency ke saath.</p>
             </div>
             <div>
